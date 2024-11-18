@@ -1,0 +1,88 @@
+body{
+    height: 709px;
+    width: 375px;
+    background-color:  hsl(225, 100%, 94%);
+}
+#main-box{
+    width: 325px;
+    height: 565px;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    border-radius: 10px;
+    margin: 25px;
+    padding: 25px;
+}
+#box1 img{
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+#box2,#box4{
+    text-align: center;
+}
+h1{
+    color: hsl(223, 47%, 23%);
+}
+#box3{
+    background-color:hsl(224, 23%, 55%);
+    color:hsl(224, 23%, 15%);
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+ul li b{
+    color: hsl(223, 47%, 23%);
+}
+#change{
+    color: blue;
+}
+#change:hover{
+    color: blue;
+    text-decoration: none;
+}
+.btn{
+    height: 35px;
+    width: 250px;
+    margin: 5px;
+    border-color: white;
+    border-radius: 10px;
+}
+#btn1{
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+}
+#btn2{
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    background-color: white;
+}
+#btn1:hover{
+    color: white;
+    background-color: hsl(225, 80%, 63%);
+}
+#btn2:hover{
+color: black;
+}
+#list2{
+    text-align: center;
+    margin-left: 30px;
+}
+#list3{
+margin-left: 90px;
+margin-top: 10px;
+}
+
+/* Larger screen */
+@media (min-width:1200px) {
+    #main-box{
+        margin: 35px 525px;
+    }
+    .attribution{
+        width: 1200px;
+        margin-left: 100px;
+    }
+    
+}
